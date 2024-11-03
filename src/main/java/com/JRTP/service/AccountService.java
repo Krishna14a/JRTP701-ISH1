@@ -13,7 +13,7 @@ public interface AccountService {
 
    public UserAccForm getUserAccountById(Integer accId);
 
-   public String changeAccStatus(Integer accId,String status);
+   public String changeAccStatus(Integer userId,String status);
 
    public String unlockUserAccount(UnlockAccForm unlockAccForm);
 }
